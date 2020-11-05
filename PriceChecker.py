@@ -22,7 +22,7 @@ def price_checker():
 
     print(int(price1), int(price2), int(price3))
 
-    if price1 > 4000:
+    if price1 < 4000:
         print('sending')
         send_mail()
 
